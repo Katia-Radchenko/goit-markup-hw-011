@@ -1,0 +1,105 @@
+:root {
+  --hover-action-color: #404bbf;
+  --color-body-text: #2e2f42;
+  --color-logo-web: #4d5ae5;
+  --color-link-address: #434455;
+  --color-hero-bg: #2e2f42;
+  --color-white: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--color-body-text);
+  margin: 0 auto;
+  width: 1440px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list-link:hover {
+  color: var(--hover-action-color);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 0.8;
+  margin-right: 100px;
+  color: var(--color-logo-web);
+  text-transform: uppercase;
+}
+.logo-span {
+  color: var(--color-body-text);
+}
+.nav {
+  display: flex;
+  padding: 16px 8px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-body-text);
+}
+
+.address {
+  margin-left: 540px;
+}
+
+.link-address {
+  color: var(--color-link-address);
+  font-weight: 400;
+}
+
+.hero {
+  background-color: var(--color-hero-bg);
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  margin: 0 auto;
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.hero-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-white);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--color-logo-web);
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+}
