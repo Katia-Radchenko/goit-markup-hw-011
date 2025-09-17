@@ -3,7 +3,7 @@
   --color-body-text: #2e2f42;
   --color-logo-web: #4d5ae5;
   --color-link-address: #434455;
-  --color-hero-bg: #2e2f42;
+  --color-sec-bg: #F4F4FD;
   --color-white: #ffffff;
 }
 
@@ -24,6 +24,16 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+p,
+h1,
+h3 {
+  margin: 0;
+}
+
+img{
+    display: block;
 }
 
 .nav-list-link:hover {
@@ -64,7 +74,7 @@ ul {
 }
 
 .address {
-  margin-left: 540px;
+  margin-left: 316px;
 }
 
 .link-address {
@@ -73,7 +83,7 @@ ul {
 }
 
 .hero {
-  background-color: var(--color-hero-bg);
+  background-color: var(--color-body-text);
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -102,4 +112,56 @@ ul {
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
+}
+.conteiner {
+  width: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px 0 0;
+}
+.section:not(:last-child) {
+  margin-bottom: 90px;
+}
+
+.values-list {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.values-item:not(:last-child) {
+    margin-right: 24px;
+}
+.values-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-body-text);
+}
+
+.values-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-link-address);
+  margin-bottom: 8px;
+}
+
+.title-doing{
+    text-align: center;
+    font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--color-body-text);
+}
+
+.sec-four{
+background-color: var(--color-sec-bg);
+padding-top: 90px;
+}
+
+.our-content{
+    background-color: var(--color-white);
+    width: 264px;
+    height: 100px;
+    text-align: center;
 }
